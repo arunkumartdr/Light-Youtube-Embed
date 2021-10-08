@@ -1,6 +1,59 @@
-# LIGHT YOUTUBE IFRAME - EMBED YOUTUBE VIDEOS IN SITE - REDUCE PAGE SIZE
+# YOUTUBE IFRAME LIGHT
+## This Reduce your page size
 
-Hi! This simple JS AND CSS Files will help to embed youtube videos in html via youtube iframe API.
+[![](https://data.jsdelivr.com/v1/package/gh/arunkumartdr/Light-Youtube-Embed/badge)](https://www.jsdelivr.com/package/gh/arunkumartdr/Light-Youtube-Embed)
 
+[See Demo Here](https://arunkumartdr.github.io/Light-Youtube-Embed/)
 
-<p>This script reduces your page size : <a href="https://www.labnol.org/internet/light-youtube-embeds/27941/">ReadMore</a><p>
+[See How this works](https://www.labnol.org/internet/light-youtube-embeds/27941/)
+
+Features:
+- Youtube Video Poster
+- No Youtube Branding
+- Responsive
+- ✨Reduces page size and load iframe after webpage loads✨
+- More on the way..
+
+## HOW TO USE
+
+Want to use this? Great!
+
+First step: Add this script tag to you webpage
+
+```sh
+<script src="https://cdn.jsdelivr.net/gh/arunkumartdr/Light-Youtube-Embed@1.0.0/youtube-light.min.js"></script>
+```
+
+Second step: Add this style tag to you webpage
+
+```sh
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/arunkumartdr/Light-Youtube-Embed@1.0.0/youtube-light.min.css">
+```
+
+Third step: Add this Html to your site [Change Data Id with your youtube video id.]
+
+```sh
+<div id="liteplayer">
+  <div class="youtube-player" data-id="nfH0pa0VSBI" /> 
+</div>
+```
+
+MULTIPLE VIDEOS IN SINGLE PAGE: just add the code to your site as follows
+
+```sh
+<div id="liteplayer">
+  <div class="youtube-player" data-id="nfH0pa0VSBI" /> 
+</div>
+
+<br>
+
+<div id="liteplayer">
+  <div class="youtube-player" data-id="nAP7esBta10" /> 
+</div>
+```
+
+## License
+
+MIT
+
+**Free Software**
